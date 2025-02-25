@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;1,500&family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Review Carousel</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="container">
+       <div class="title">
+        <h2>Our reviews</h2>
+        <div class="underline"></div>
+       </div>
+
+       <article class="reviews">
+        <div class="img-container">
+          <img src="./src/person1.jpg" alt="image-person" id="person-image">
+          <h4 id="author">Olivia Sharp</h4>
+          <p id="job">Web Designer</p>
+          <p id="info">I had the privilege of working at Look Into as a web developer. During my time there, I was able to contribute to the development of interactive and scalable applications, always focusing on delivering a seamless user experience. Collaborating with the team was enriching and I learned a lot about best practices in web development and modern technologies. </p>
+          
+
+          <div class="button-container">
+            <button aria-label="buscar" class="prev-btn">
+              <i class="fa-solid fa-circle-chevron-left"></i>
+            </button>
+
+          <button aria-label="buscar" class="next-btn">
+            <i class="fa-solid fa-circle-chevron-right"></i>
+          </button>
+          </div>
+
+          <button class="random-btn">surprise me</button>
+        </div>
+       </article>
+      </section>
+    </main>
+
+
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>
